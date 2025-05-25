@@ -43,6 +43,7 @@ export default function Header() {
                 type="text"
                 placeholder="Search drinks..."
                 className="w-full px-4 py-2 rounded-full border border-gray-200 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:border-transparent transition-all"
+                
               />
               <button className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 group-hover:text-amber-600 transition-colors">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
