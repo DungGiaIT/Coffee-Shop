@@ -7,7 +7,7 @@ export default function Hero() {
     <section className="bg-gradient-to-br from-emerald-50/80 to-stone-50 min-h-screen py-15 px-30 ">
       <div className="max-w-8xl mx-auto flex flex-col lg:flex-row items-center gap-16">
         {/* Left Content */}
-        <div className="lg:w-2/5 space-y-8 space-x-20">
+        <div className="lg:w-4/5 space-y-8 space-x-20">
           <div className="space-y-4">
             <span className="bg-emerald-100 text-emerald-700 px-4 py-1.5 rounded-full text-sm font-medium">
               Bestseller of the Month ✨
@@ -63,7 +63,7 @@ export default function Hero() {
         </div>
 
         {/* Center Image */}
-        <div className="lg:w-2/3 relative h-[600px] w-full">
+        <div className="lg:w-3/3 relative h-[600px] w-full">
           <div className="absolute inset-0 bg-gradient-to-br from-emerald-100 to-stone-100 rounded-3xl shadow-2xl -rotate-3 scale-95"></div>
           <Image
             src="/images/matchalate.webp"
@@ -76,13 +76,13 @@ export default function Hero() {
         </div>
 
         {/* Right Content */}
-        <div className="lg:w-3/4 space-y-8">
+        {/* <div className="lg:w-3/4 space-y-8">
           <div className="bg-white p-8 rounded-3xl shadow-xl border border-stone-100">
             <h3 className="text-2xl font-bold text-stone-900 mb-6">Customization</h3>
             
-            <div className="space-y-8">
+            <div className="space-y-8"> */}
               {/* Size Selection */}
-              <div>
+              {/* <div>
                 <h4 className="text-sm font-semibold text-stone-500 mb-4">SELECT SIZE</h4>
                 <div className="grid grid-cols-2 gap-3">
                   {['S (12oz)', 'M (16oz)', 'L (20oz)', 'XL (24oz)'].map((size) => (
@@ -98,10 +98,10 @@ export default function Hero() {
                     </button>
                   ))}
                 </div>
-              </div>
+              </div> */}
 
               {/* Toppings Selection */}
-              <div>
+              {/* <div>
                 <h4 className="text-sm font-semibold text-stone-500 mb-4">ADD TOPPINGS (+$0.75)</h4>
                 <div className="grid grid-cols-1 gap-3">
                   {['Whipped Cream', 'Caramel Drizzle', 'Vanilla Foam', 'Chocolate Shavings'].map((topping) => (
@@ -119,10 +119,10 @@ export default function Hero() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* Special Offer */}
-          <div className="bg-gradient-to-br from-emerald-700 to-teal-600 p-6 rounded-2xl shadow-lg">
+          {/* <div className="bg-gradient-to-br from-emerald-700 to-teal-600 p-6 rounded-2xl shadow-lg">
             <div className="flex items-center gap-4">
               <div className="w-14 h-14 bg-white/10 rounded-full flex items-center justify-center">
                 <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -135,7 +135,7 @@ export default function Hero() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   )
