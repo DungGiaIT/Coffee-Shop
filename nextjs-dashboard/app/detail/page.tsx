@@ -34,7 +34,7 @@ export default function ProductPage() {
             <div className="mb-8">
               <span className="text-3xl font-bold text-gray-800">$5.99</span>
               <span className="text-gray-500 ml-2">/ serving</span>
-            </div>
+            </div> 
 
             {/* Combined Sections */}
             <div className="flex flex-col md:flex-row gap-8 mb-8">
