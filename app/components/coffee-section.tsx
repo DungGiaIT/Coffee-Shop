@@ -37,7 +37,7 @@ const CoffeeSection = () => {
                             className="group rounded-2xl shadow-md transition-transform duration-300 transform hover:scale-105 p-6 flex flex-col justify-between bg-[#fd8e3d] text-white"
                         >
                             <div className="flex justify-center mb-4">
-                                <img src="/cup.png" alt="Coffee Cup" className="h-24" />
+                                <img src="/images/cup.png" alt="Coffee Cup" className="h-24" />
                             </div>
 
                             <h2 className="text-lg font-bold mb-4 leading-snug text-white">
